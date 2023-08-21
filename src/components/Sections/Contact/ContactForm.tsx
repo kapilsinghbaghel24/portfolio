@@ -1,11 +1,7 @@
-import { FC, memo, useCallback, useMemo, useRef, useState } from 'react';
+import { FC, memo, useCallback, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
+
 
 const ContactForm: FC = memo(() => {
   const formRef:any = useRef(null);
@@ -20,7 +16,7 @@ const ContactForm: FC = memo(() => {
       event.preventDefault();
       
       emailjs.sendForm(`${process.env.NEXT_PUBLIC_SERVICE_ID}`, `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, formRef.current, `${process.env.NEXT_PUBLIC_KEY}`)
-      .then((result)=>{
+      .then(()=>{
         setEmail('');
         setName('');
         setMessage('');
