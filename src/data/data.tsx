@@ -15,6 +15,7 @@ import heroImage from '../images/header-background.webp';
 import nexusgrove from '../images/nexusgrove.png';
 import streamify from '../images/streamify.png';
 import unichat from '../images/unichat.png';
+import glance from '../images/glance.png';
 import profilepic from '../images/avatar.jpg';
 import resume from '../images/avatar.jpg';
 import {
@@ -173,28 +174,28 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Nexusgrove',
+    description: 'A robust and visually captivating e-commerce website with user-centric design, and secure transaction handling.',
+    url: 'https://nexusgrove.vercel.app',
     image: nexusgrove,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Streamify',
+    description: 'An immersive video streaming platform delivering a seamless and captivating user experience',
+    url: 'https://streamify-ui.onrender.com',
     image: streamify,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'UniChat',
+    description: 'Full - fledged social media app, encompassing real-time messaging, group chat, media-sharing and much more.',
+    url: 'https://unichat-client.onrender.com',
     image: unichat,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: nexusgrove,
+    title: 'Glance',
+    description: 'An immersive video sharing application with excellent UI/UX design and innovative algorithms.',
+    url: 'https://github.com/kapilsinghbaghel24/Glance',
+    image: glance,
   },
   {
     title: 'Project title 5',
